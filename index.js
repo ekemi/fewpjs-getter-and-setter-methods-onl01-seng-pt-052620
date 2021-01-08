@@ -12,4 +12,7 @@ get circumference(){
 get area(){
   return Math.PI * this.radius * this.radius;
 }
+set area(num){
+  this.radius =radius;
+}
 }
