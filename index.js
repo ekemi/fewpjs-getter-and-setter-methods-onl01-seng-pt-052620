@@ -13,6 +13,6 @@ get area(){
   return Math.PI * this.radius * this.radius;
 }
 set diameter(num){
-  this.radius =this.diameter / 2;
+  this.radius =num / 2;
 }
 }
